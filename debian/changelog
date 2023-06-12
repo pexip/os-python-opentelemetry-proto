@@ -2,6 +2,7 @@ python-opentelemetry-proto (1.18.0-0pexip1) pexip; urgency=medium
 
   * New upstream release
   * Fix build
+  * Fix copyright
 
  -- Huw Jones <huw@pexip.com>  Mon, 12 Jun 2023 14:39:25 +0100
 
