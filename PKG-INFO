@@ -1,24 +1,26 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: opentelemetry-proto
-Version: 1.18.0
+Version: 1.32.1
 Summary: OpenTelemetry Python Proto
 Project-URL: Homepage, https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-proto
+Project-URL: Repository, https://github.com/open-telemetry/opentelemetry-python
 Author-email: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
-License-Expression: Apache-2.0
+License: Apache-2.0
 License-File: LICENSE
 Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: OpenTelemetry
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Programming Language :: Python
 Classifier: Programming Language :: Python :: 3
-Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
-Requires-Python: >=3.7
-Requires-Dist: protobuf<5.0,>=3.19
-Provides-Extra: test
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.8
+Requires-Dist: protobuf<6.0,>=5.0
 Description-Content-Type: text/x-rst
 
 OpenTelemetry Python Proto
@@ -30,9 +32,9 @@ OpenTelemetry Python Proto
    :target: https://pypi.org/project/opentelemetry-proto/
 
 This library contains the generated code for OpenTelemetry protobuf data model. The code in the current
-package was generated using the v0.17.0 release_ of opentelemetry-proto.
+package was generated using the v1.2.0 release_ of opentelemetry-proto.
 
-.. _release: https://github.com/open-telemetry/opentelemetry-proto/releases/tag/v0.17.0
+.. _release: https://github.com/open-telemetry/opentelemetry-proto/releases/tag/v1.2.0
 
 Installation
 ------------
